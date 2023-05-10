@@ -12,7 +12,7 @@ resource "proxmox_vm_qemu" "kube-masters" {
 
     agent = 1
 
-    clone = "debian-11.6-docker"
+    clone = "debian-11.6"
     cores = 4
     sockets = 1
     cpu = "host"
