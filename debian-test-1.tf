@@ -27,9 +27,6 @@ resource "proxmox_vm_qemu" "kube-master" {
         storage = "local"
         type = "virtio"
         size = "20G"
-        #cache = "none"
-        #volume = "local:vm-${each.value}-disk-0"
-        #file = "vm-${each.value}-disk-0"
     }
 
     os_type = "cloud-init"
