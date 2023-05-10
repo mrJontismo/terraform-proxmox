@@ -12,8 +12,6 @@ The file should contain:
 proxmox_api_url = "your-proxmox-host"
 proxmox_api_token_id = "your-token-id"
 proxmox_api_token_secret = "your-secret"
-
-proxmox_node = "your-proxmox-node"
 ```
 
 ## Usage
