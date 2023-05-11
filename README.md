@@ -20,4 +20,4 @@ proxmox_api_token_secret = "your-secret"
 2. Clone this repository to your local machine.
 3. Update the `variables.pkrvars.hcl` file with your desired settings.
 4. Run `terraform init` to initialize the configuration.
-5. Run `terraform apply -auto-approve` to create the Kubernetes cluster.
+5. Run `terraform apply -auto-approve` to provision the master nodes.
