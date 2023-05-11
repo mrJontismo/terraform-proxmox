@@ -2,7 +2,7 @@ locals {
   vm_names = ["kube-server-1", "kube-server-2", "kube-server-3"]
 }
 
-resource "proxmox_vm_qemu" "kube-masters" {
+resource "proxmox_vm_qemu" "kube-servers" {
 
     for_each = toset(local.vm_names)
 
