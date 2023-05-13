@@ -30,4 +30,5 @@ resource "proxmox_vm_qemu" "kube-servers" {
     }
 
     os_type = "cloud-init"
+    onboot = true
 }
